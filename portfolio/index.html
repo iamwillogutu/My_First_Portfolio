@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>William Ogutu - Personal Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Simple, unobtrusive styling for readability */
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height: 1.6; margin: 0; padding: 0 1rem; color: #111; }
+    header, nav, section, article, footer { max-width: 900px; margin: 1.25rem auto; }
+    header h1 { margin: 0.25rem 0; font-size: 2rem; }
+    nav ul { list-style: none; padding: 0; display: flex; gap: 1rem; margin: 0.5rem 0; }
+    nav a { text-decoration: none; font-weight: 600; }
+    .project { border: 1px solid #e0e0e0; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; }
+    footer { font-size: 0.9rem; color: #555; text-align: center; margin-bottom: 2rem; }
+    a.external::after { content: " ↗"; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>William Ogutu</h1>
+    <p>Creative front-end developer &amp; UX enthusiast helping turn ideas into delightful, accessible web experiences.</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Introduction Section -->
+  <section id="introduction" aria-labelledby="intro-heading">
+    <h2 id="intro-heading">Introduction</h2>
+    <p>Hello! I'm William Ogutu — a front-end developer with a passion for crafting clean, responsive interfaces and thoughtful user experiences. I enjoy turning complex problems into simple, elegant designs and writing maintainable code that humans actually enjoy working with.</p>
+  </section>
+
+  <!-- Article (contains main content sections including Projects, About, Contact) -->
+  <article>
+
+    <!-- Projects Section -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+
+      <article class="project" aria-labelledby="proj1-title">
+        <h3 id="proj1-title">Portfolio Website</h3>
+        <p>A responsive, performance-focused portfolio showcasing projects, blog posts, and case studies with progressive enhancement and accessibility-first design.</p>
+        <a class="external" href="https://example-portfolio.com" target="_blank" rel="noopener">View project (opens in new tab)</a>
+      </article>
+
+      <article class="project" aria-labelledby="proj2-title">
+        <h3 id="proj2-title">Task Manager App</h3>
+        <p>A single-page application for tracking daily tasks, built with vanilla JavaScript and localStorage for fast, offline-friendly usage.</p>
+        <a class="external" href="https://example-taskapp.com" target="_blank" rel="noopener">View project (opens in new tab)</a>
+      </article>
+
+      <article class="project" aria-labelledby="proj3-title">
+        <h3 id="proj3-title">Data Viz Dashboard</h3>
+        <p>Interactive dashboards visualizing user research and product metrics with accessible charts and keyboard-friendly controls.</p>
+        <a class="external" href="https://example-dashboard.com" target="_blank" rel="noopener">View project (opens in new tab)</a>
+      </article>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>I have a background in graphic design and transitioned into front-end development to combine visual craft with technical implementation. I care deeply about accessibility, performance, and clear communication.</p>
+      <ul>
+        <li><strong>Skills:</strong> HTML5, CSS3, JavaScript, responsive design, accessibility (WCAG), basic React</li>
+        <li><strong>Tools:</strong> Git, Webpack, VS Code, Figma</li>
+        <li><strong>Hobbies:</strong> photography, A/B testing side projects, hiking, and reading tech blogs</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>I'd love to hear about your project or collaboration ideas — reach out!</p>
+      <p>
+        Email: <a href="mailto:your.iamwill.ogutu@gmail.com">your.email@example.com</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/william-ogutu" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a><br>
+        GitHub: <a href="https://github.com/iamwillogutu" target="_blank" rel="noopener">github.com/yourprofile</a>
+      </p>
+    </section>
+
+  </article>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 John Doe</p>
+  </footer>
+
+</body>
+</html>
